@@ -1,0 +1,38 @@
+document, html {
+    overflow: hidden;
+    background-image: url("img/bg.png");
+    background-repeat: repeat;
+}
+
+#hipwoodGiraffeContainer {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#hipwoodGiraffeContainer img {
+    transform: translate(-50%, -50%);
+}
+
+#hipwoodGiraffeContainer h1 {
+    font-family: sans-serif;
+    width: 100%;
+    font-size: 120px;
+    z-index: 9999;
+    color: #ffffff;
+    text-shadow: 2px 2px #000000;
+    transform: translateY(-50%);
+}
+
+#playMusic {
+    position: fixed;
+    top: 0;
+    right: 0;
+    z-index: 9999;
+    height:100px;
+}
+
+#playMusic:hover {
+    cursor: pointer;
+}
